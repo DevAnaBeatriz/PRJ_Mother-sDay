@@ -1,6 +1,15 @@
-html {
+html, body {
+  width: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
+
 }
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 
 .navbar {
   position: fixed;
@@ -401,16 +410,7 @@ h1 {
   width: 100%;
 }
 
-
-
-
-
-
-
 /* PRESENTE */
-
-
-
 
 .presente-section {
   text-align: center;
@@ -454,7 +454,7 @@ h1 {
 .controle-musica {
   position: fixed;
   bottom: 100px;
-  right: 20px;
+  right: -15px;
   background: #f4d9ff;
   border: 2px solid #dba6ff;
   color: #6b2dad;
